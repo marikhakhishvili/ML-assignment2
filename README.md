@@ -76,31 +76,31 @@ TransactionID, რომელიც მხოლოდ იდენტიფი
 ### ფუნქციების მიმდევრობა
 
 #### 1. XGBoost
-**UselessFeatureDropper:** უსარგებლო სვეტების წაშლა
-**FraudFeatureEngineer:** ახალი სვეტების შექმნა
-**CategoricalOHE:** OHE ენკოდირება
+1. **UselessFeatureDropper:** უსარგებლო სვეტების წაშლა
+2. **FraudFeatureEngineer:** ახალი სვეტების შექმნა
+3. **CategoricalOHE:** OHE ენკოდირება
 
 #### 2. Logistic Regression
-**TransactionCleaner:** დამერჯვამდე სვეტების წაშლა
-**UselessFeatureDropper:** უსარგებლო სვეტების წაშლა
-**FraudFeatureEngineer:** ახალი სვეტების შექმნა
-**CorrelationFilter:** კორელირებული სვეტების წაშლა
-**LogisticImputer:** NaN-ების შევსება
-**NumericScaler:** სკალირება
-**CategoricalOHE:** OHE ენკოდირება
+1. **TransactionCleaner:** დამერჯვამდე სვეტების წაშლა
+2. **UselessFeatureDropper:** უსარგებლო სვეტების წაშლა
+3. **FraudFeatureEngineer:** ახალი სვეტების შექმნა
+4. **CorrelationFilter:** კორელირებული სვეტების წაშლა
+5. **LogisticImputer:** NaN-ების შევსება
+6. **NumericScaler:** სკალირება
+7. **CategoricalOHE:** OHE ენკოდირება
 
 
 #### 3. Decision Tree
-**UselessFeatureDropper:** უსარგებლო სვეტების წაშლა
-**FraudFeatureEngineer:** ახალი სვეტების შექმნა
-**CategoricalOrdinalEncoder:** ordinal encoding
+1. **UselessFeatureDropper:** უსარგებლო სვეტების წაშლა
+2. **FraudFeatureEngineer:** ახალი სვეტების შექმნა
+3. **CategoricalOrdinalEncoder:** ordinal encoding
 
 #### 4. Random Forest
-**TransactionCleaner:** დამერჯვამდე სვეტების წაშლა
-**UselessFeatureDropper:** უსარგებლო სვეტების წაშლა
-**FraudFeatureEngineer:** ახალი სვეტების შექმნა
-**LogisticImputer:** NaN-ების შევსება
-**CategoricalOrdinalEncoder:** ordinal encoding
+1. **TransactionCleaner:** დამერჯვამდე სვეტების წაშლა
+2. **UselessFeatureDropper:** უსარგებლო სვეტების წაშლა
+3. **FraudFeatureEngineer:** ახალი სვეტების შექმნა
+4. **LogisticImputer:** NaN-ების შევსება
+5. **CategoricalOrdinalEncoder:** ordinal encoding
 
 ## ტრენინგი და ექსპერიმენტები
 

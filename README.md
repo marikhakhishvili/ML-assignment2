@@ -199,7 +199,7 @@ TransactionID, რომელიც მხოლოდ იდენტიფი
 ## MLflow ექსპერიმენტები DagsHub-ზე
 
 ყველა run დარეგისტრირებულია:
-https://dagshub.com/mkhak23/ML_assignment2.mlflow/#/experiments
+https://dagshub.com/mkhak23/ML-assignment2
 
 <img width="1654" height="191" alt="image" src="https://github.com/user-attachments/assets/c10ff4ef-5895-4e14-a86b-19acf8aa0b0d" />
 
